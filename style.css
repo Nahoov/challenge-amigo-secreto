@@ -1,9 +1,11 @@
+/* #4B69FD; #FFF9EB;*/
+
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #79d6b7; 
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #c5526e;
+    --color-button-hover: #ba3259;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -136,7 +138,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #13ed1e;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +161,15 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-reinicio {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    background-color: #C4C4C4;
+}
+
+.button-reinicio:hover {
+    background-color: #a1a1a1;
 }
